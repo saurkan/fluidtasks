@@ -186,7 +186,7 @@ export const EditProjectForm = ({ onCancel, initialValues }: EditProjectFormProp
                             <Button
                               type="button"
                               disabled={isPending}
-                              variant="tertiary"
+                              variant="outline"
                               size="xs"
                               className="mt-2 w-fit"
                               onClick={() => inputRef.current?.click()}

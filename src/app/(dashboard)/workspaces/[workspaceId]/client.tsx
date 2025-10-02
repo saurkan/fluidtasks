@@ -40,12 +40,10 @@ export const WorkspaceIdClient = () => {
         <div className="text-6xl mb-6">⚠️</div>
         <h2 className="text-2xl font-bold mb-2">Unable to load workspace</h2>
         <p className="text-muted-foreground mb-6 text-center max-w-md">
-          We couldn't load your workspace data. Please try refreshing the page or create a new workspace.
+          We couldn&apos;t load your workspace data. Please try refreshing the page or create a new workspace.
         </p>
         <Button asChild>
-          <a href="/workspaces/create">
-            Create a Workspace
-          </a>
+          <a href="/workspaces/create">Create a Workspace</a>
         </Button>
       </div>
     );

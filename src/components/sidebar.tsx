@@ -1,11 +1,12 @@
 import { Suspense } from 'react';
-import { Card } from './ui/card';
-import { Button } from './ui/button';
-import { Sheet } from './ui/sheet';
-import { Separator } from './ui/separator';
+
 import { Logo } from './logo';
 import { Navigation } from './navigation';
 import { Projects } from './projects';
+import { Button } from './ui/button';
+import { Card } from './ui/card';
+import { Separator } from './ui/separator';
+import { Sheet } from './ui/sheet';
 import { WorkspaceSwitcher } from './workspaces-switcher';
 
 export const Sidebar = () => {

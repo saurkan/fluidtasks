@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import Head from 'next/head';
 import type { PropsWithChildren } from 'react';
 
 import { QueryProvider } from '@/components/query-provider';
 import { Toaster } from '@/components/ui/sonner';
 import { cn } from '@/lib/utils';
-import { Inter } from 'next/font/google';
-import Head from 'next/head';
 
 import './globals.css';
 

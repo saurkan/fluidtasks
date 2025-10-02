@@ -1,4 +1,5 @@
 import { redirect } from 'next/navigation';
+
 import { getCurrent } from '@/features/auth/queries';
 import { getWorkspaces } from '@/features/workspaces/queries';
 

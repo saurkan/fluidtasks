@@ -209,7 +209,7 @@ export const EditWorkspaceForm = ({ onCancel, initialValues }: EditWorkspaceForm
                             <Button
                               type="button"
                               disabled={isPending}
-                              variant="tertiary"
+                              variant="outline"
                               size="xs"
                               className="mt-2 w-fit"
                               onClick={() => inputRef.current?.click()}

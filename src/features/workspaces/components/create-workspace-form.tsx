@@ -109,7 +109,7 @@ export const CreateWorkspaceForm = ({ onCancel }: CreateWorkspaceFormProps) => {
                       <p className="text-base font-medium mb-2">Workspace Icon</p>
                       <p className="text-sm text-muted-foreground">Add a custom icon to make your workspace easily identifiable.</p>
                     </div>
-                    
+
                     <div className="flex items-center gap-x-6">
                       {field.value ? (
                         <div className="relative size-20 overflow-hidden rounded-lg border">
@@ -165,7 +165,7 @@ export const CreateWorkspaceForm = ({ onCancel }: CreateWorkspaceFormProps) => {
                             Upload Image
                           </Button>
                         )}
-                        
+
                         <p className="text-xs text-muted-foreground">JPG, PNG, or JPEG, max 1MB</p>
                       </div>
                     </div>
@@ -177,13 +177,7 @@ export const CreateWorkspaceForm = ({ onCancel }: CreateWorkspaceFormProps) => {
             <Separator />
 
             <div className="flex items-center justify-end gap-x-3">
-              <Button
-                disabled={isPending}
-                type="button"
-                variant="outline"
-                onClick={onCancel}
-                className={cn(!onCancel && 'invisible')}
-              >
+              <Button disabled={isPending} type="button" variant="outline" onClick={onCancel} className={cn(!onCancel && 'invisible')}>
                 Cancel
               </Button>
 
