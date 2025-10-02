@@ -162,7 +162,7 @@ export const CreateProjectForm = ({ onCancel }: CreateProjectFormProps) => {
                           <Button
                             type="button"
                             disabled={isPending}
-                            variant="tertiary"
+                            variant="secondary"
                             size="xs"
                             className="mt-2 w-fit"
                             onClick={() => inputRef.current?.click()}
